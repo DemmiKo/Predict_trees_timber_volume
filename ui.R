@@ -29,7 +29,10 @@ shinyUI(fluidPage(
       user's input values are represented with a different color.
       The last one illustrates the predictions of each model based on user's input
       as well as the R squared value. It is obvious that the second model fits better as its R squared value 
-      is much higher than that of the first model." ,
+      is much higher than that of the first model.",
+      br(),
+      "GitHub repository:",
+      a('https://github.com/DemmiKo/Predict_trees_timber_volume', href = 'https://github.com/DemmiKo/Predict_trees_timber_volume'),
       hr(),
       sliderInput("Height",
                   "Height:",
